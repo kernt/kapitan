@@ -40,7 +40,7 @@ kapitan = 'kapitan.cli:main'
 optional = true
 
 [tool.poetry.group.test.dependencies]
-pytest = "^8.2.0"
+pytest = ">=8.2,<10.0"
 coverage = "^7.6.1"
 pytest-md = "^0.2.0"
 pytest-emoji = "^0.2.0"
